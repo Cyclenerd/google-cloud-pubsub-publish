@@ -54,7 +54,7 @@ jobs:
         run: chmod +x pubsub-publish-linux-x86_64 && ./pubsub-publish-linux-x86_64 -h
 
   test-macos:
-    name: Test Linux
+    name: Test macOS
     needs: build
     runs-on: macos-latest
     steps:
