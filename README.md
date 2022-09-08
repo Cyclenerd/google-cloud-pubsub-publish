@@ -7,7 +7,7 @@ There are ready-to-run compiled binaries for Linux, macOS and Windows.
 
 [![CI](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/ci.yml/badge.svg)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/ci.yml)
 [![Release](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/release.yml/badge.svg)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/release.yml)
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/cyclenerd/google-cloud-pubsub-publish)
+[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/cyclenerd/google-cloud-pubsub-publish)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/blob/master/go.mod)
 [![GitHub license](https://img.shields.io/github/license/cyclenerd/google-cloud-pubsub-publish)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/blob/master/LICENSE)
 
 ## 💾 Download
