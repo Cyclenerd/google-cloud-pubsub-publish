@@ -81,7 +81,7 @@ jobs:
           name: pubsub-publish
       # Test binary
       - name: 🌡️ Test
-        run: pubsub-publish-windows-x86_64.exe -h
+        run: .\pubsub-publish-windows-x86_64.exe -h
 
   release:
     name: Release
