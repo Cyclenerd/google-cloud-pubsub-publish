@@ -1,16 +1,12 @@
-# My Template
+# My google-cloud-pubsub-publish
 
-This is my template repository to generate new repositories with the same directory structure and files.
+This is my google-cloud-pubsub-publish repository to generate new repositories with the same directory structure and files.
 
-1. Replace `template` with new repo name (<kbd>Crtl</kbd>+<kbd>Shift</kbd>+<kbd>H</kbd>)
+1. Replace `google-cloud-pubsub-publish` with new repo name (<kbd>Crtl</kbd>+<kbd>Shift</kbd>+<kbd>H</kbd>)
 
-[![CI](https://github.com/Cyclenerd/template/actions/workflows/ci.yml/badge.svg)](https://github.com/Cyclenerd/template/actions/workflows/ci.yml)
-[![GitHub](https://img.shields.io/github/license/cyclenerd/template)](https://github.com/Cyclenerd/template/blob/master/LICENSE)
+[![CI](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/ci.yml/badge.svg)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/ci.yml)
+[![GitHub](https://img.shields.io/github/license/cyclenerd/google-cloud-pubsub-publish)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/blob/master/LICENSE)
 [![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/googlecloud?label=Google%20Cloud%20Platform&style=social)](https://www.reddit.com/r/googlecloud/comments/va0cc0/automating_cost_control_by_capping_google_cloud/)
-
-## 🧑‍💻 Development
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Cyclenerd/template)
 
 ### Requirements
 
