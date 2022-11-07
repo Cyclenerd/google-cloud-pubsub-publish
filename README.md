@@ -1,14 +1,16 @@
 # Publish to Google Cloud Pub/Sub Topic
 
+![Bagde: Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?logo=google-cloud&logoColor=white)
+![Bagde: Go](https://img.shields.io/badge/Go-%2300ADD8.svg?logo=go&logoColor=white)
+[![Bagde: GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/cyclenerd/google-cloud-pubsub-publish)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/blob/master/go.mod)
+[![Bagde: CI](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/ci.yml/badge.svg)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/ci.yml)
+[![Bagde: Release](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/release.yml/badge.svg)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/release.yml)
+[![Bagde: GitHub license](https://img.shields.io/github/license/cyclenerd/google-cloud-pubsub-publish)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/blob/master/LICENSE)
+
 Small (unfortunately not in file size) and fast app to publish a message to a Google Cloud Pub/Sub topic.
 
 The app is developed in Go and faster than the original Google Cloud CLI tool `gcloud`.
 There are ready-to-run compiled binaries for Linux, macOS and Windows.
-
-[![CI](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/ci.yml/badge.svg)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/ci.yml)
-[![Release](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/release.yml/badge.svg)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/actions/workflows/release.yml)
-[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/cyclenerd/google-cloud-pubsub-publish)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/blob/master/go.mod)
-[![GitHub license](https://img.shields.io/github/license/cyclenerd/google-cloud-pubsub-publish)](https://github.com/Cyclenerd/google-cloud-pubsub-publish/blob/master/LICENSE)
 
 ## 💾 Download
 
