@@ -185,6 +185,30 @@ sys     0m0.223s
 You can see that it is not the publication of the actual message which takes a long time,
 it is the launching of the Google Cloud CLI.
 
+## 🤖 Ansible
+
+Example for your Ansible playbook:
+
+```yml
+# Pub/Sub Publish
+# https://github.com/Cyclenerd/google-cloud-pubsub-publish
+- name: Pub/Sub Publish - Get download URL
+  ansible.builtin.uri:
+    url: https://github.com/Cyclenerd/google-cloud-pubsub-publish/releases/download/v1.0.0/pubsub-publish-linux-arm64
+    return_content: true
+    follow_redirects: none
+    status_code: 302
+  register: github_redirect
+- name: Pub/Sub Publish - Download
+  ansible.builtin.get_url:
+    url: "{{ github_redirect.location }}"
+    dest: /usr/local/bin/pubsub-publish
+    checksum: 'sha256:35a48034932db4cb7701154b63ccbd3e42a5fc49d361ead2912a6fbe3a5d6b71'
+    mode: '0755'
+    owner: root
+    group: root
+```
+
 ## ❤️ Contributing
 
 Have a patch that will benefit this project?
